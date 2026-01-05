@@ -140,10 +140,6 @@
     <Compile Include="Migrations\202601051849135_AddCategoryAndValidation.Designer.cs">
       <DependentUpon>202601051849135_AddCategoryAndValidation.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202601051919302_InitialCreate.cs" />
-    <Compile Include="Migrations\202601051919302_InitialCreate.Designer.cs">
-      <DependentUpon>202601051919302_InitialCreate.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\BlogDBContext.cs" />
     <Compile Include="Models\BlogPost.cs" />
@@ -238,9 +234,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202601051849135_AddCategoryAndValidation.resx">
       <DependentUpon>202601051849135_AddCategoryAndValidation.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202601051919302_InitialCreate.resx">
-      <DependentUpon>202601051919302_InitialCreate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

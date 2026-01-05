@@ -13,7 +13,7 @@ namespace PurrfectBlog.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "202601051919302_InitialCreate"; }
+            get { return "202601051935356_InitialCreate"; }
         }
         
         string IMigrationMetadata.Source

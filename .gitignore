@@ -1,0 +1,104 @@
+##############################
+# Visual Studio
+##############################
+
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+
+##############################
+# Build results
+##############################
+
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+
+##############################
+# .NET artifacts
+##############################
+
+*.dll
+*.exe
+*.pdb
+*.cache
+*.resources
+*.tlb
+*.log
+
+##############################
+# NuGet
+##############################
+
+packages/
+*.nupkg
+*.snupkg
+.nuget/
+.nuget/NuGet.exe
+.nuget/NuGet.Config
+
+##############################
+# ASP.NET / IIS
+##############################
+
+*.Publish.xml
+*.pubxml
+*.publishproj
+*.pub
+*.csproj.user
+web.config.transform
+app.config.transform
+
+##############################
+# Resharper / Rider
+##############################
+
+_ReSharper*/
+*.DotSettings.user
+
+##############################
+# OS files
+##############################
+
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+##############################
+# Logs
+##############################
+
+*.log
+
+##############################
+# Test results
+##############################
+
+TestResults/
+*.trx
+
+##############################
+# SQL / LocalDB
+##############################
+
+*.mdf
+*.ldf
+
+##############################
+# Node (if used)
+##############################
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

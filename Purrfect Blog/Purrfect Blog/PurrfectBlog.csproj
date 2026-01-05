@@ -132,13 +132,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202601051848056_InitialCreate.cs" />
-    <Compile Include="Migrations\202601051848056_InitialCreate.Designer.cs">
-      <DependentUpon>202601051848056_InitialCreate.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\202601051849135_AddCategoryAndValidation.cs" />
     <Compile Include="Migrations\202601051849135_AddCategoryAndValidation.Designer.cs">
       <DependentUpon>202601051849135_AddCategoryAndValidation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202601051941481_InitialCreate.cs" />
+    <Compile Include="Migrations\202601051941481_InitialCreate.Designer.cs">
+      <DependentUpon>202601051941481_InitialCreate.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\BlogDBContext.cs" />
@@ -196,6 +196,7 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Posts\View.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -229,11 +230,11 @@
     <Content Include="Scripts\jquery-3.7.0.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202601051848056_InitialCreate.resx">
-      <DependentUpon>202601051848056_InitialCreate.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202601051849135_AddCategoryAndValidation.resx">
       <DependentUpon>202601051849135_AddCategoryAndValidation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202601051941481_InitialCreate.resx">
+      <DependentUpon>202601051941481_InitialCreate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

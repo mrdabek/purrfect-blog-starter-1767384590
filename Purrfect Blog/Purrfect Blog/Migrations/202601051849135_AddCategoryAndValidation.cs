@@ -1,4 +1,4 @@
-﻿namespace Purrfect_Blog.Migrations
+﻿namespace PurrfectBlog.Migrations
 {
     using System;
     using System.Data.Entity.Migrations;

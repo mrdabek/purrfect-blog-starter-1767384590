@@ -4,7 +4,7 @@ using System.Data.Entity;
 using System.Linq;
 using System.Web;
 
-namespace Purrfect_Blog.Models
+namespace PurrfectBlog.Models
 {
     public class BlogDbContext : DbContext
     {

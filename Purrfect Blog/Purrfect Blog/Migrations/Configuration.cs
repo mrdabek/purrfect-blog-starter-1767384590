@@ -1,18 +1,18 @@
-﻿namespace Purrfect_Blog.Migrations
+﻿namespace PurrfectBlog.Migrations
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<Purrfect_Blog.Models.BlogDbContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<PurrfectBlog.Models.BlogDbContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(Purrfect_Blog.Models.BlogDbContext context)
+        protected override void Seed(PurrfectBlog.Models.BlogDbContext context)
         {
             //  This method will be called after migrating to the latest version.
 

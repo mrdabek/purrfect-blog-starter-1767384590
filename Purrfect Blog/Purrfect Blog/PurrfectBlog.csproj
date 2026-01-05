@@ -128,6 +128,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PostsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -138,6 +139,10 @@
     <Compile Include="Migrations\202601051849135_AddCategoryAndValidation.cs" />
     <Compile Include="Migrations\202601051849135_AddCategoryAndValidation.Designer.cs">
       <DependentUpon>202601051849135_AddCategoryAndValidation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202601051919302_InitialCreate.cs" />
+    <Compile Include="Migrations\202601051919302_InitialCreate.Designer.cs">
+      <DependentUpon>202601051919302_InitialCreate.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\BlogDBContext.cs" />
@@ -198,6 +203,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Default\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />
@@ -232,6 +238,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202601051849135_AddCategoryAndValidation.resx">
       <DependentUpon>202601051849135_AddCategoryAndValidation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202601051919302_InitialCreate.resx">
+      <DependentUpon>202601051919302_InitialCreate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

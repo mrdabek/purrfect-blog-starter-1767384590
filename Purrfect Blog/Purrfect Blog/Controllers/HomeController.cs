@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace Purrfect_Blog.Controllers
+namespace PurrfectBlog.Controllers
 {
     public class HomeController : Controller
     {
